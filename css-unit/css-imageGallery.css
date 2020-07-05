@@ -1,0 +1,20 @@
+img {
+  /* so for each row of 3 img's, each image takes up 30% of that space */
+  /* so 3(30)% = 90%. 10% remains. Each img has it's margin pair, so if
+  we want equal spacing then we must divide evenly. So there are 3 margin pairs
+  per row, meaning there are 6 individual margins. 10/6 = 1.66%, thus
+  giving us equal margins.  */
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+}
+p {
+  font-family: Raleway;
+  margin-left: 1.66%;
+  font-size: 23px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+  padding-bottom: 20px;
+}

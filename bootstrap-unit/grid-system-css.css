@@ -1,0 +1,15 @@
+.pink {
+  background: purple;
+  border: 1px solid pink;
+  color: white;
+}
+
+.orange {
+  background: blue;
+  border: 1px solid orange;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}

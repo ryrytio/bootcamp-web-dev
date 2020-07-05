@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+<form>
+<label for="fn">First Name:</label>
+<input name="firstName" id="fn" type="text" placeholder="John" required>
+
+<label for="ln">Last Name:</label>
+<input name="lastName" id="ln" type="text" placeholder="Smith" required>
+
+<div>
+  <label for="male">Male</label>
+<input name="sex" id="male" type="radio"
+  value="male">
+
+  <label for="female">Female</label>
+<input name="sex" id="female" type="radio"
+  value="female">
+
+  <label for="other">Other</label>
+<input id="other" name="sex" type="radio"
+  value="other">
+</div>
+
+<div>
+<label for="email">Email:</label>
+<input id="email" name="email" type="email" placeholder="your email" required>
+
+<label for="password">Password:</label>
+<input id="password" name="password" type="password"
+ placeholder="your password" minlength="8" maxlength="10" required>
+</div>
+
+<div>
+  <label>Birthday:
+  <select name="month">
+    <option value="month">Month</option>
+    <option value="Jan">January</option>
+    <option value="Sep">September</option>
+    <option value="Feb">February</option>
+  </select>
+
+  <select name="day">
+    <option value="day">Day</option>
+    <option value="12">12</option>
+    <option value="23">23</option>
+    <option value="19">19</option>
+  </select>
+
+  <select name="year">
+    <option value="year">Year</option>
+    <option value="1997">1997</option>
+    <option value="2000">2000</option>
+    <option value="2020">2020</option>
+  </select>
+    </label>
+</div>
+
+<div>
+<label>I agree to the terms and conditions</label>
+<input type="checkbox">
+
+</div>
+<div>
+<input type="submit">
+</div>
+</form>
+
+<!-- <h1>Registration Form</h1>
+<form>
+<label for="fn">First Name:</label>
+<input id="fn" type="text" required>
+
+<label for="ln">Last Name:</label>
+<input id="ln" type="text" required>
+
+<div>
+<label for="male">Male</label>
+<input id="male" name="sex" type="radio">
+
+<label for="female">Female</label>
+<input id="female" name="sex" type="radio">
+
+<label for="other">Other</label>
+<input id="other" name="sex" type="radio">
+</div>
+
+<div>
+<label>DoB
+<select name="Year">
+  <option value="Year">Year</option>
+  <option value="1">1999</option>
+  <option value="2">2000</option>
+  <option value="3">2001</option>
+  <option value="4">2002</option>
+</select>
+<select name="Month">
+  <option value="Month">Month</option>
+  <option value="1">Jan</option>
+  <option value="2">Feb</option>
+  <option value="3">Mar</option>
+  <option value="4">Apr</option>
+</select>
+</label>
+</div>
+
+<div>
+<label>Fuck this, I agree
+<input type="checkbox">
+</label>
+</div>
+
+<input type="submit"> -->
+
+<!-- </form> -->
+  </body>
+</html>

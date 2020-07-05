@@ -1,0 +1,53 @@
+
+table {
+  border: black;
+  border-collapse: collapse;
+  width: 300px;
+  height: 300px;
+  /* centering the table */
+  margin: auto;
+
+}
+td{
+  width: 100px;
+  height: 100px;
+}
+
+/* Colt's SOLUTION */
+/* since borders are transparent by default, we need to define how they look */
+.vert {
+  border-right: 1px solid black
+}
+
+.hori {
+  border-bottom: 1px solid black
+}
+
+.vert2 {
+  border-left: 1px solid black
+}
+
+.hori2 {
+  border-top: 1px solid black;
+}
+
+/* My SOLUTION */
+/* requires HTML to have table with border of "1" */
+/* <table border="1"> */
+.topper {
+  border-top: transparent;
+}
+
+.bot {
+  border-bottom: transparent;
+}
+.leftWall {
+  border-left: transparent;
+}
+.rightWall {
+  border-right: transparent;
+}
+
+h1 {
+  text-align: center;
+}

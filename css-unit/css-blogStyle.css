@@ -1,0 +1,46 @@
+body {
+  font-family: Raleway;
+  border: 20px solid #D5D4D3;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 0.6%;
+  padding-bottom: 0.6%;
+  background: #212121;
+  color: #ECEAE9;
+}
+
+h2 {
+font-size: 2.0rem;
+}
+/* date */
+h3 {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #A37836;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.date{
+  color: #A37836;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+/* horizontal line */
+hr {
+      border: 0;
+      border-bottom: 1px dashed #ccc;
+      background: #999;
+}
+/* first paragraph */
+.firstP {
+  border-left: 3px solid #A37836;
+  padding-left: 0.5%;
+}
