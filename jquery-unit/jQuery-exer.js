@@ -13,3 +13,5 @@ $("div").first().css("color", "pink");
 $("div:first").css("border", "2px solid yellow");
 // OR
 $("div:first-of-type").css("fontSize", "50px");
+
+$(".nice").css("backgroundColor", "orange");
